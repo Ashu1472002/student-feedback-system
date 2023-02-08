@@ -1,0 +1,198 @@
+*{
+    margin:"0";
+    padding:"0";
+    font-family: 'Josefin Sans', sans-serif;
+ } 
+
+ .nav-item:hover{
+   
+   background-color: crimson;
+   border-radius: 4rem;
+ }
+ .pill:hover{
+   color:whitesmoke;
+   
+ }
+ /*For admin login page*/
+.form-group .form-control {
+    width: 440px;
+    max-width: 100%;
+    margin-right: 5px;
+    padding: 5px 12px;
+    font-size: 16px;
+    line-height: 20px;
+    border-top-style:hidden;
+    border-left-style:hidden;
+    border-right-style:hidden;
+    border-bottom-style:solid;
+    display:inline-block ;
+}
+#icon{
+    background-image:url(user_login.png); 
+    background-repeat: no-repeat; 
+    background-position: 10px 10px;
+}
+#icon2{
+    background-image:url(pwd_icon.png); 
+    background-repeat: no-repeat; 
+    background-position: 6px 9px;
+}
+
+#img{
+    margin-top:50px ;
+    margin-bottom:50px ;
+    
+}
+
+.avatar {
+	position: flex;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #60c7c1;
+	padding: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.avatar img {
+	width: 100%;
+}
+
+.heading{
+    font-size:30px;
+    letter-spacing:2px;
+    font-style:bold solid 10px;
+}
+
+.type-box{
+    height:50px;
+    padding:4px;
+    border:1px grey solid;
+    text-align:center;
+    border-radius:12px;
+}
+.block2{
+    display:inline-block ;
+    text-align:center;
+    width:50%;
+}
+.loginbtn{
+    padding:5px;
+    border:none;
+    border-radius: 20%;
+    color:whitesmoke;
+    font-size:20px;
+    font-style:bold 2px;
+    background-color:rgb(243, 20, 20);
+}
+.a1{
+
+    color:black;
+}
+
+/*admin home page*/
+:root {
+  --primary:hsla(256, 92%, 33%, 0.824);
+
+}
+
+.admin{
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  color:var(--primary);
+}
+
+a:hover{
+  text-decoration: none;
+}
+.bg-primary{background-color: var(--primary) !important;}
+
+#sidebar-container{
+  width:0px;
+  min-height: 100vh;
+}
+
+#sidebar-container .logo{
+  padding: .775rem 1.25rem;
+}
+
+#sidebar-container .menu{
+  width: 18rem;
+}
+
+.card_cs{
+  box-shadow: 0 8px 10px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align:left;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 65px;
+  color: blanchedalmond;
+}
+
+
+.card:hover , .dash:hover{
+  transform:scale(1.05);
+}
+
+.profile{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+    height:fit-content;
+  background-color: #f7caca;
+  padding: 10px;
+  }
+
+  .fontforform{ 
+  color: black;
+  text-align:left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  background-color: #92dbf8;
+  padding: 10px;
+  box-shadow: 0 8px 10px 4px rgba(0, 0, 0, 0.2);
+  
+  }
+
+.rating-css div {
+  color: #ffe400;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  /* padding: 20px 0; */
+}
+
+.rating-css input {
+  display: none;
+}
+
+.rating-css input+label {
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #ffe400;
+  cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+  color: #838383;
+}
+
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+
+
+
+
